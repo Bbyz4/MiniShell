@@ -1,0 +1,16 @@
+#ifndef _CONFIG_H_
+#define _CONFIG_H_
+
+#define MAX_LINE_LENGTH 2048
+
+#define SYNTAX_ERROR_STR "Syntax error."
+
+#define EXEC_FAILURE 127
+
+#define PROMPT_STR "$ "
+
+#define DEFAULT_FILE_PERMISSIONS (S_IRUSR | S_IWUSR | S_IRGRP | S_IROTH)
+
+#define MAX_BACKGROUND_PROCESSES MAX_LINE_LENGTH
+
+#endif /* !_CONFIG_H_ */
